@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1</title>
+</head>
+<body>
+ 
+ Enter Radius:<input type="text" id="radius">
+ <button onclick="calculatearea(document.getElementById('radius').value)"> 
+ Calculate radius</button>
+  <p id='aa'></p>
+
+
+
+
+<script type="text/javascript">
+
+
+function calculatearea(radius){
+	var area=3.14*radius*radius;
+	document.getElementById('aa').innerHTML="area is " + area;
+}
+var y=5;
+//document.getElementById("aa").innerHTML = radius;
+</script>
+
+
+</body>
+</html>
